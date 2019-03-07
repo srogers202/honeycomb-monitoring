@@ -1,0 +1,28 @@
+{
+  "name": "honeycomb-monitoring",
+  "version": "0.0.1",
+  "description": "Report performance and monitoring markers to HoneyComb in a consistent way.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "npx prettier --write *.ts"
+  },
+  "repository": "git@github.com:srogers202/honeycomb-monitoring.git",
+  "author": "Seth Rogers <seth.rogers@keap.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/jest": "^23.3.13",
+    "jest": "^24.0.0",
+    "prettier": "1.16.1",
+    "ts-jest": "^23.10.5",
+    "typescript": "^3.2.4"
+  },
+  "dependencies": {
+    "libhoney": "^1.2.1",
+    "moment": "^2.24.0",
+    "on-headers": "^1.0.1"
+  }
+}
