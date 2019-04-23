@@ -10,7 +10,7 @@
     "lint": "npx prettier --write *.ts"
   },
   "repository": "git@github.com:srogers202/honeycomb-monitoring.git",
-  "author": "Seth Rogers <seth.rogers@keap.com>",
+  "author": "Seth Rogers <sethhrogers@gmail.com>",
   "license": "MIT",
   "private": true,
   "devDependencies": {

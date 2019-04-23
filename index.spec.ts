@@ -11,7 +11,7 @@ const dataset = 'sample-dataset';
 const enabled = false;
 const eventName = 'sample-event-name';
 
-describe('keap-node-monitoring', () => {
+describe('honeycomb-monitoring', () => {
   beforeEach(() => {
     Honey.mockClear();
   });

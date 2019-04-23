@@ -1,4 +1,4 @@
-# keap-node-monitoring
+# Honeycomb Monitoring
 JS SDK to send performance and monitoring markers to HoneyComb in a consistent way.
 
 ## What should I monitor?
@@ -44,8 +44,8 @@ TODO
 
 ## Installation 
 ```sh
-npm install git+ssh://git@github.com/infusionsoft/keap-node-monitoring
-yarn add git+ssh://git@github.com/infusionsoft/keap-node-monitoring
+npm install honeycomb-monitoring
+yarn add honeycomb-monitoring
 ```
 
 ## Usage
@@ -53,7 +53,7 @@ yarn add git+ssh://git@github.com/infusionsoft/keap-node-monitoring
 
 ### Initialization
 ```typescript
-import Monitor from 'keap-node-monitoring';
+import Monitor from 'honeycomb-monitoring';
 
 const writeKey = 'XX-HONEY-COMB-WRITE-KEY-XX';
 const dataset = 'sample-dataset';
