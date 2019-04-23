@@ -1,0 +1,8 @@
+index.ts
+
+.prettierrc.js
+jest.config.js
+tsconfig.json
+
+*.spec.*
+
