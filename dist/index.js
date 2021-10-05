@@ -128,7 +128,7 @@ class Monitor {
         });
     }
     initializeHoney(writeKey, dataset, enabled) {
-        this.honey = new libhoney_1.default({
+        this.honey = new libhoney_1({
             writeKey,
             dataset,
             disabled: !enabled,
